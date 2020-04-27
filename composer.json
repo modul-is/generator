@@ -1,0 +1,20 @@
+{
+    "name": "modul-is/generator",
+    "description": "Generates entities, repositories, presenters, templates, dials, forms and grids from DB table to given Module",
+    "type": "library",
+    "keywords": ["php", "nette", "generator"],
+    "homepage": "https://github.com/modul-is/generator",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/modul-is/generator/issues"
+    },
+    "autoload": {
+        "classmap": ["src/", "bin/"]
+    },
+    "require": {
+        "nette/database": "^3",
+        "nette/neon": "^3",
+        "nette/utils": "^3",
+        "nette/finder": "^2"
+    }
+}
